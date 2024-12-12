@@ -3,7 +3,7 @@
 <p align="center">
     <img src="images/IMG_SHELL.png"
     alt="A shell image"
-    width="700"
+    width="500"
     style="float: left; margin-right: 10px;">
 </p>
 
