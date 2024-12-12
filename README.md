@@ -3,7 +3,7 @@
 <p align="center">
     <img src="images/IMG_SHELL.png"
     alt="A shell image"
-    width="500"
+    width="350"
     style="float: left; margin-right: 10px;">
 </p>
 
@@ -35,7 +35,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_001.png"
         alt="Mensaje inicial"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -46,7 +46,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_003.png"
         alt="Ruta absoluta para el historial de comandos"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -55,7 +55,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_004.png"
         alt="Vista previa del historial de comandos"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -68,7 +68,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_002.png"
         alt="Servidor inicializado en escucha"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -80,7 +80,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_005.png"
         alt="Conexión del lado del cliente"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -91,7 +91,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_006.png"
         alt="Desconectarse del servidor con exit"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -102,7 +102,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
     <p align="center">
         <img src="images/IMG_007.png"
         alt="Forzar el cierre del programa"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
@@ -111,7 +111,7 @@ Utilizarlo del lado del servidor es sencillo, gracias a la implementación entre
      <p align="center">
         <img src="images/IMG_008.png"
         alt="Cierre de sesión con el servidor cerrado"
-        width="700"
+        width="500"
         style="float: left; margin-right: 10px;">
     </p>
 
