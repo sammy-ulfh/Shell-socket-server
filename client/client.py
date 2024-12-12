@@ -20,11 +20,16 @@ class Client:
 
             with client:
 
-                print(client.recv(1024).decode())
+                initial = client.recv(1024).decode()
+                print(initial)
 
                 while True:
 
-                    command = input("$ ")
+                    if initial.split()[-1] == 'Powershell':
+                        command = input("> ")
+                    else:
+                        command = input("$ ")
+
                     if not command:
                         continue
                     client.sendall(command.encode())

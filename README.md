@@ -1,8 +1,15 @@
 # Shell socket server
 
+<p align="center">
+    <img src="images/IMG_SHELL.png"
+    alt="A shell image"
+    width="700"
+    style="float: left; margin-right: 10px;">
+</p>
+
 Este es un pequeño servidor implementado con socket, donde para tener la funcionalidad esperada se emplea en uso de POO y  las librerías **socket**, **re**, **subprocess**, **signal**, **datetime** y **os**, así como el uso de excepciones.
 
-Lo que el servidor finalmente nos permite es realizar una ejecución remota de comandos al conectarnos como un cliente al servidor mediante un puerto dado, estos se ejecutan mediante la librería **subprocess**, otorgando momentáneamente una sesión de  terminal para cada comando, recuperando el output y siendo enviado nuevamente al usuario.
+Lo que el servidor finalmente nos permite es realizar una ejecución remota de comandos al conectarnos como un cliente al servidor mediante un puerto dado, estos se ejecutan mediante la librería **subprocess**, otorgando momentáneamente una sesión de terminal **Bash** o **Powershell** dependiendo del sistema host del servidor (el servidor funciona en Windows y en Linux), para cada comando, recuperando el output y siendo enviado nuevamente al usuario.
 
 Al ser una ejecicion remota de comandos empleando esta librería, evidentemente tiene sus limitaciones, como la ejecución de binarios o herramientas que te dejan en un estado de espera y solo se pueden terminar interrumpiendo su flujo, ya que lo ejecuta, pero esto provoca que el cliente quede en un estado de espera donde no puede terminar ese proceso, ni recibir un output y se queda colgado.
 

@@ -15,10 +15,11 @@ class Server:
 
         with client:
 
-            x = 0 
+            x = 0
+            shell = 'powershell' if os.name == 'nt' else 'bash'
 
             d = os.getcwd()
-            client.sendall(f"\n\n[+] Bienvenido a tu terminal bash\n".encode())
+            client.sendall(f"\n\n[+] Bienvenido a tu terminal {shell.capitalize()}\n".encode())
 
             history = History(addr)
             history.save_history()
@@ -34,7 +35,7 @@ class Server:
                     break
 
                 data = client.recv(1024)
-                with subprocess.Popen(['/bin/bash'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=d) as process:
+                with subprocess.Popen([shell], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=d) as process:
 
                     command = data.decode().strip()
 
